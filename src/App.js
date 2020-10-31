@@ -1,11 +1,16 @@
 import React from 'react';
+//components
+
 import './App.css';
+import MyNavbar from './components/my-navbar/mynavbar.component';
 
 
 const App = () => {
   return (
     <div className="App">
-       <h1>My portfolio</h1>
+      <MyNavbar></MyNavbar>
+       <h1>Md Saon</h1>
+       
     </div>
   );
 }
