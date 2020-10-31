@@ -2,14 +2,17 @@ import React from 'react';
 //components
 
 import './App.css';
+import MyCarousel from './components/my-carousel/my-carousel.component';
 import MyNavbar from './components/my-navbar/mynavbar.component';
+import TitleMessage from './components/title-message/title-message.component';
 
 
 const App = () => {
   return (
     <div className="App">
       <MyNavbar></MyNavbar>
-       <h1>Md Saon</h1>
+       <MyCarousel></MyCarousel>
+       <TitleMessage></TitleMessage>
        
     </div>
   );
